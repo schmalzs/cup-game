@@ -1,0 +1,13 @@
+.toolbar {
+  display: flex;
+  flex-direction: column-reverse;
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+.toolbar button {
+  min-width: 100px;
+}

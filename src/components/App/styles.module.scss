@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.cup {
+  width: 50%;
+  max-width: 250px;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.list {
+  margin: 1rem 0;
+}
+
+.selection {
+  margin-top: 1rem;
+}
